@@ -1,6 +1,6 @@
 {
   "name": "@webreflection/mapset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Map and WeakMap that returns value on .set(...)",
   "main": "./cjs/index.js",
   "scripts": {
