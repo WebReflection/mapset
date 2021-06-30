@@ -5,9 +5,9 @@
 `Map` and `WeakMap` that returns value on `.set(...)`.
 
 ```js
-import {Map, WeakMap} from '@webreflection/mapset';
+import {MapSet, WeakMapSet} from '@webreflection/mapset';
 
-const map = new Map;
+const map = new MapSet;
 
 map.get('any') || map.set('any', 'value');
 // "value"

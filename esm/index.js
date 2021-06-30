@@ -1,11 +1,11 @@
-export class Map extends globalThis.Map {
+export class MapSet extends Map {
   set(key, value) {
     super.set(key, value);
     return value;
   }
 }
 
-export class WeakMap extends globalThis.WeakMap {
+export class WeakMapSet extends WeakMap {
   set(key, value) {
     super.set(key, value);
     return value;

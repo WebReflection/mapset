@@ -1,16 +1,16 @@
 'use strict';
-class Map extends globalThis.Map {
+class MapSet extends Map {
   set(key, value) {
     super.set(key, value);
     return value;
   }
 }
-exports.Map = Map
+exports.MapSet = MapSet
 
-class WeakMap extends globalThis.WeakMap {
+class WeakMapSet extends WeakMap {
   set(key, value) {
     super.set(key, value);
     return value;
   }
 }
-exports.WeakMap = WeakMap
+exports.WeakMapSet = WeakMapSet

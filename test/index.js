@@ -1,4 +1,4 @@
-const {Map, WeakMap} = require('../cjs');
+const {MapSet, WeakMapSet} = require('../cjs');
 
-console.assert((new Map).set('key', 'map') === 'map');
-console.assert((new WeakMap).set({key: 'key'}, 'weak-map') === 'weak-map');
+console.assert((new MapSet).set('key', 'map') === 'map');
+console.assert((new WeakMapSet).set({key: 'key'}, 'weak-map') === 'weak-map');
